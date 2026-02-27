@@ -1,0 +1,82 @@
+.banner {
+    position: relative;
+    height: 600px;
+    color: white;
+    object-fit: contain;
+}
+
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 200px;
+    height: 190px;
+}
+
+.banner__title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.banner__description {
+    width: 45rem;
+    line-height: 1.4;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    max-width: 500px;
+    height: 80px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.banner__buttons {
+    display: flex;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.6rem;
+    background-color: rgba(109, 109, 110, 0.7);
+    padding-bottom: 0.6rem;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.banner__buttonPlay {
+    color: #000;
+    background-color: #fff;
+}
+
+.banner__buttonPlay:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.banner__button:not(.banner__buttonPlay):hover {
+    background-color: rgba(109, 109, 110, 0.4);
+}
+
+.banner--fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37, 37, 37, 0.61),
+        #111
+    );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
